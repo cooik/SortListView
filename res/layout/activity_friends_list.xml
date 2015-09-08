@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.youyang.view.StickyListHeadersListView
+        android:id="@+id/friends_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:divider="#f8f8f8"
+        android:dividerHeight="1dp"
+        android:fastScrollEnabled="false"
+        android:scrollbars="none"
+        tools:listitem="@layout/list_item_layout" />
+
+    <com.youyang.view.SeekBar_Right
+        android:id="@+id/friends_seekbar_right"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical" />
+
+     
+
+</RelativeLayout>
